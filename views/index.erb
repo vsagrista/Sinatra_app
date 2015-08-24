@@ -1,0 +1,15 @@
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<h1><%=@greetings%></h1>
+
+<p>This is an erb file</p>
+<p>Today's date is: <strong ><%= Date.today %></strong></p>
+
+<p>The time is: <strong > <%= t= Time.now 
+t.strftime("%I:%M%p")%>  </strong> </p>
+
+<% if 2+2 == 4 %>
+<p> 2+2 is 4, of course!</p>
+<% else %>
+<p> this won't show up unless you cange the operation</p>
+<%end%>

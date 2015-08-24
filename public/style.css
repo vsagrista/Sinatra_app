@@ -1,0 +1,31 @@
+body {
+	
+}
+h1 {
+	font-family: fantasy;
+    font-size: 3em;
+	background: tomato;
+	text-align: center;
+	
+}
+p {
+     text-align: center;
+    font-family: fantasy;
+    font-size: 2em;
+    margin: 0,0
+
+}
+p:nth-child(odd){
+	background: lightgrey
+}
+p:nth-child(even){
+	background: lightblue
+}
+form {
+	margin: 0, auto
+}
+input {
+	
+	text-align: center;
+	width: 60%;
+}
